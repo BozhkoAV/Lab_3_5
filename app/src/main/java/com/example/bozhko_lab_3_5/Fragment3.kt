@@ -16,10 +16,12 @@ class Fragment3 : Fragment() {
     ): View {
         val binding = FragmentThirdBinding.inflate(this.layoutInflater)
         binding.button4.setOnClickListener {
-            it.findNavController().navigate(R.id.action_nav_fragment3_to_nav_fragment1)
+            // it.findNavController().navigate(R.id.action_nav_fragment3_to_nav_fragment1)
+            it.findNavController().navigate(R.id.action_global_nav_fragment1)
         }
         binding.button5.setOnClickListener {
-            it.findNavController().navigate(R.id.action_nav_fragment3_to_nav_fragment2)
+            // it.findNavController().navigate(R.id.action_nav_fragment3_to_nav_fragment2)
+            it.findNavController().navigate(R.id.action_global_nav_fragment2)
         }
         return binding.root
     }

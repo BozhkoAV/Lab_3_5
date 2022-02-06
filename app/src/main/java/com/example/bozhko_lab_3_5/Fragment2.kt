@@ -16,7 +16,8 @@ class Fragment2 : Fragment() {
     ): View {
         val binding = FragmentSecondBinding.inflate(this.layoutInflater)
         binding.button.setOnClickListener {
-            it.findNavController().navigate(R.id.action_nav_fragment2_to_nav_fragment1)
+            // it.findNavController().navigate(R.id.action_nav_fragment2_to_nav_fragment1)
+            it.findNavController().navigate(R.id.action_global_nav_fragment1)
         }
         binding.button2.setOnClickListener {
             it.findNavController().navigate(R.id.action_nav_fragment2_to_nav_fragment3)
