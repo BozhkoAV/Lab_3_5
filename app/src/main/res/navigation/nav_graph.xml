@@ -9,7 +9,7 @@
         android:id="@+id/nav_fragment1"
         android:name="com.example.bozhko_lab_3_5.Fragment1"
         android:label="Fragment 1"
-        tools:layout="@layout/fragment_first">
+        tools:layout="@layout/fragment1">
         <!--<action
             android:id="@+id/action_nav_fragment1_to_nav_fragment2"
             app:destination="@id/nav_fragment2" />-->
@@ -25,7 +25,7 @@
         android:id="@+id/nav_fragment2"
         android:name="com.example.bozhko_lab_3_5.Fragment2"
         android:label="Fragment 2"
-        tools:layout="@layout/fragment_second">
+        tools:layout="@layout/fragment2">
         <action
             android:id="@+id/action_nav_fragment2_to_nav_fragment3"
             app:destination="@id/nav_fragment3" />
@@ -46,7 +46,7 @@
         android:id="@+id/nav_fragment3"
         android:name="com.example.bozhko_lab_3_5.Fragment3"
         android:label="Fragment 3"
-        tools:layout="@layout/fragment_third">
+        tools:layout="@layout/fragment3">
         <!--<action
             android:id="@+id/action_nav_fragment3_to_nav_fragment2"
             app:destination="@id/nav_fragment2"

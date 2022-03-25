@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
-import com.example.bozhko_lab_3_5.databinding.FragmentThirdBinding
+import com.example.bozhko_lab_3_5.databinding.Fragment3Binding
 
 class Fragment3 : Fragment() {
     override fun onCreateView(
@@ -14,12 +14,12 @@ class Fragment3 : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val binding = FragmentThirdBinding.inflate(this.layoutInflater)
-        binding.button4.setOnClickListener {
+        val binding = Fragment3Binding.inflate(this.layoutInflater)
+        binding.bnToFirst.setOnClickListener {
             // it.findNavController().navigate(R.id.action_nav_fragment3_to_nav_fragment1)
             it.findNavController().navigate(R.id.action_global_nav_fragment1)
         }
-        binding.button5.setOnClickListener {
+        binding.bnToSecond.setOnClickListener {
             // it.findNavController().navigate(R.id.action_nav_fragment3_to_nav_fragment2)
             it.findNavController().navigate(R.id.action_global_nav_fragment2)
         }
